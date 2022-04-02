@@ -3,6 +3,7 @@ import increment from './actions/increment';
 
 function App() {
   const value = useSelector((state) => state.value);
+
   const dispatch = useDispatch();
 
   const handleClick = () => {
