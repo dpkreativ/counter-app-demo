@@ -9,6 +9,7 @@ function App() {
   const handleClick = () => {
     dispatch(increment);
   };
+
   return (
     <div className="flex flex-col space-y-5 items-center py-10">
       <h1 className="text-7xl font-bold">{value}</h1>
